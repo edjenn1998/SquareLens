@@ -1,0 +1,10 @@
+{
+  "uuid": "square-lens@local",
+  "name": "Square Lens",
+  "description": "A square magnifying lens that follows your pointer.",
+  "shell-version": [
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.square-lens",
+  "version": 4
+}

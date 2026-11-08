@@ -1,0 +1,31 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.square-lens" path="/org/gnome/shell/extensions/square-lens/">
+    <key name="lens-size" type="i">
+      <default>300</default><range min="100" max="1000"/>
+      <summary>Square side length in logical pixels</summary>
+    </key>
+    <key name="zoom-factor" type="d">
+      <default>2.0</default><range min="1.25" max="8.0"/>
+      <summary>Magnification factor</summary>
+    </key>
+    <key name="toggle-shortcut" type="as">
+      <default>['&lt;Super&gt;&lt;Alt&gt;m']</default>
+      <summary>Keyboard shortcut to toggle the lens</summary>
+    </key>
+    <key name="sharpness" type="d">
+      <default>0.0</default><range min="0.0" max="1.0"/>
+      <summary>Sharpening strength (zero disables sharpening)</summary>
+    </key>
+    <key name="grayscale" type="b">
+      <default>false</default><summary>Show lens content in shades of gray</summary>
+    </key>
+    <key name="tint" type="s">
+      <choices><choice value="none"/><choice value="red"/><choice value="orange"/><choice value="yellow"/><choice value="green"/><choice value="blue"/><choice value="purple"/></choices>
+      <default>'none'</default><summary>Lens tint color</summary>
+    </key>
+    <key name="tint-strength" type="d">
+      <default>0.35</default><range min="0.0" max="1.0"/>
+      <summary>Lens tint strength</summary>
+    </key>
+  </schema>
+</schemalist>
